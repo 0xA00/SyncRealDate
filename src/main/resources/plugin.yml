@@ -1,0 +1,13 @@
+name: SyncRealDate
+author: Lengthrequired/OxAO/0x7472616e730a
+version: 1.0
+api-version: 1.19
+description: plugin syncing the real date with the MC date, 1 day in MC = 24h
+main: fr.Lengthrequired.SyncRealDate.Main
+commands:
+  syncdate:
+    description: syncing the date
+    aliases: [sync,sd]
+  timezone:
+    description: setting the timezone
+    aliases: [tz]
