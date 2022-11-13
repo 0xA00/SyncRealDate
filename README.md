@@ -8,6 +8,10 @@ You can change your time zone so if you don't want to play like you were in U.K 
 
 You can also decide if you want to have a daylight saving or not (it will change your time by 1 hour , tbf I don't know why daylight saving is a thing in some countries).
 
+## Installation
+
+You just have to download the release of the version you want and you'll need to put the .jar file into your **plugins** folder.
+
 ## Commands
 
 The first command you can use is :
