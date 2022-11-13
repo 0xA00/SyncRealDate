@@ -4,9 +4,9 @@
 SyncRealDate is a plugin that let you sync your Minecraft world daylight cycle with the one that you currently live on.
 For Example : if you live in U.K. ( __EW__ ) , your Minecraft world daylight cycle is going to sync with the one in UK so it will be 2 A.M at ... 2 A.M. .
 
-You can change your time zone so if you don't want to play as you were in U.K you can change to another time zone ( You can play as if you were in Poland except you live in Argentina).
+You can change your time zone so if you don't want to play like you were in U.K you can change to another time zone ( You can play as if you were in Poland except you live in Argentina).
 
-You can also decide if you want to have a daylight saving or not (it will change you time by 1 hour , tbf I don't know why daylight saving is a thing in some countries).
+You can also decide if you want to have a daylight saving or not (it will change your time by 1 hour , tbf I don't know why daylight saving is a thing in some countries).
 
 ## Commands
 
@@ -28,7 +28,7 @@ The second command is :
 /timezone
 ```
 
-this one is really simple , it will open a GUI that will let you choose a timezone and if you want to have Daylight saving or not.
+this one is really simple , it will open an In-game Window that will let you choose a timezone and if you want to have Daylight saving or not.
 
 ![GUI](https://imgur.com/fSIQxxT.png)
 
