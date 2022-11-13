@@ -13,6 +13,8 @@ You can also decide if you want to have a daylight saving or not (it will change
 You just have to download the release of the version you want and you'll need to put the .jar file into your **plugins** folder.
 it will create a "**timeproperties.props**" in the same folder.
 
+![downloadbutton](https://img.shields.io/github/v/release/Lengthrequired/SyncRealDate?color=pink&label=SyncRealDate)
+
 ## Commands
 
 The first command you can use is :
