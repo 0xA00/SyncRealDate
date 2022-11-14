@@ -18,11 +18,12 @@ public class TimezoneCommand implements CommandExecutor {
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
 
         Player player = (Player) commandSender;
-        System.out.println(player.getName()+" has opened the timezone menu");
+        if(player.isOp()) {
+            System.out.println(player.getName() + " has opened the timezone menu");
 
 
-        new timeZoneInventory().open(player);
-
+            new timeZoneInventory().open(player);
+        }
         return true;
     }
 }
@@ -208,7 +209,7 @@ class timeZoneInventory extends FastInv {
             ServerCommand.SetTime();
         });
         setItem(43,new ItemBuilder(Material.CLOCK).name(ChatColor.GOLD+"DayLight Saving").build(),e->{
-
+            setCloseFilter(p->false);
             timeproperties.setDaylightsaving(!timeproperties.getDaylightsaving());
             if(timeproperties.getDaylightsaving()){
                 e.getWhoClicked().sendMessage("§6DayLight Saving is now §aenabled");
